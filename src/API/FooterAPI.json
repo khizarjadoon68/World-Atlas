@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "FaLocationDot",
+        "title": "Find us",
+        "details": "Pune, Maharashtra"
+    },
+    {
+        "icon": "FaPhone",
+        "title": "Call us",
+        "details": "0312-5817230"
+    },
+    {
+        "icon": "FaEnvelope",
+        "title": "Mail us",
+        "details": "khizarjadoon68@.com"
+    }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1407563842,
+    "interestingFact": "India is the world's largest democracy."
+  },
+  {
+    "id": 2,
+    "countryName": "United States",
+    "capital": "Washington, D.C.",
+    "population": 331893745,
+    "interestingFact": "The U.S. has the world's largest economy by nominal GDP."
+  },
+  {
+    "id": 3,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": 214326223,
+    "interestingFact": "The Amazon rainforest, the largest tropical rainforest, is in Brazil."
+  },
+  {
+    "id": 4,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": 123294513,
+    "interestingFact": "Japan is made up of over 6,800 islands."
+  },
+  {
+    "id": 5,
+    "countryName": "Germany",
+    "capital": "Berlin",
+    "population": 83294633,
+    "interestingFact": "Germany is known for its engineering and automotive industries."
+  },
+  {
+    "id": 6,
+    "countryName": "France",
+    "capital": "Paris",
+    "population": 67407241,
+    "interestingFact": "The Eiffel Tower in Paris was once the tallest man-made structure in the world."
+  },
+  {
+    "id": 7,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": 26719652,
+    "interestingFact": "Australia is home to the world's largest coral reef system—the Great Barrier Reef."
+  },
+  {
+    "id": 8,
+    "countryName": "South Africa",
+    "capital": "Pretoria",
+    "population": 60284778,
+    "interestingFact": "South Africa has three capital cities: Pretoria, Bloemfontein, and Cape Town."
+  },
+  {
+    "id": 9,
+    "countryName": "Russia",
+    "capital": "Moscow",
+    "population": 144186745,
+    "interestingFact": "Russia is the largest country in the world by land area."
+  },
+  {
+    "id": 10,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": 38874063,
+    "interestingFact": "Canada has more lakes than the rest of the world combined."
+  }
+]
