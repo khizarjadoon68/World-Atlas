@@ -13,7 +13,7 @@ const Footer = () => {
     return (
         <div className="bg-neutral-900 text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex flex-wrap justify-around items-center py-8 gap-8">
+                <div className="flex flex-wrap justify-center md:justify-around items-start py-8 gap-8">
                     {footerContact.map((curData) => {
                         const { icon, title, details } = curData;
 
@@ -21,7 +21,7 @@ const Footer = () => {
 
                         return (
                             <div className="flex items-center gap-4" key={title}>
-                                <div className="text-3xl text-blue-400">
+                                <div className="text-3xl text-blue-400 flex-shrink-0">
                                     {Icon ? <Icon /> : <FaLocationDot />}
                                 </div>
                                 <div className="flex flex-col">

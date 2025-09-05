@@ -7,10 +7,10 @@ const CountryDetail = ({ name, flags }) => {
             <img
                 src={flags.svg}
                 alt={flags.alt || `Flag of ${name.common}`}
-                className="w-full h-40 object-cover"
+                className="w-full h-32 sm:h-40 object-cover"
             />
-            <div className="p-4 flex-grow">
-                <h3 className="font-bold text-xl mb-2">{name.common}</h3>
+            <div className="p-3 sm:p-4 flex-grow">
+                <h3 className="font-bold text-lg sm:text-xl mb-2">{name.common}</h3>
                 <div className="space-y-1 text-sm text-neutral-300">
                     <p><span className="font-semibold text-white">Official:</span> {name.official}</p>
                     <p><span className="font-semibold text-white">Native:</span> {nativeName}</p>
