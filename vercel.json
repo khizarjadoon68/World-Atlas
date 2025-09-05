@@ -1,0 +1,8 @@
+{
+  "build": {
+    "env": {
+      "ROLLUP_USE_JS": "true",
+      "NODE_VERSION": "20"
+    }
+  }
+}
