@@ -11,7 +11,7 @@ const CountryDetail = ({ name, flags }) => {
             />
             <div className="p-3 sm:p-4 flex-grow">
                 <h3 className="font-bold text-lg sm:text-xl mb-2">{name.common}</h3>
-                <div className="space-y-1 text-sm text-neutral-300">
+                <div className="space-y-1 text-xs sm:text-sm text-neutral-300">
                     <p><span className="font-semibold text-white">Official:</span> {name.official}</p>
                     <p><span className="font-semibold text-white">Native:</span> {nativeName}</p>
                 </div>

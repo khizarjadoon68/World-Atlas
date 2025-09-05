@@ -9,8 +9,8 @@ const Country = () => {
     }
 
     return (
-        <div className=" mt-10 pl-70 pr-70">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="max-w-screen-2xl mx-auto py-10 px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
                 {CountryDetails.map((country) => (
                     <Link to={`/country/${country.name.common}`} key={country.name.common} className="no-underline">
 
