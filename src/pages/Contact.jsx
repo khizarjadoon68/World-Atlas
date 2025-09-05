@@ -24,13 +24,13 @@ const Contact = () => {
     return (
         <>
             <section className="text-white flex flex-col items-center pb-30">
-                <h1 className="text-4xl font-bold mt-20 ">Contact</h1>
+                <h1 className="text-4xl font-bold mt-12 sm:mt-20">Contact</h1>
                 <form
                     onSubmit={handleFormSubmit}
-                    className="flex flex-col"
+                    className="flex flex-col w-full max-w-md p-4"
                 >
                     <input
-                        className="border mt-4 w-80 h-10"
+                        className="bg-neutral-800 border border-neutral-600 rounded-md p-2 mt-4 w-full h-10 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         type="text"
                         placeholder="Enter Your Name"
                         required
@@ -40,7 +40,7 @@ const Contact = () => {
                         onChange={handleChange}
                     />
                     <input
-                        className="border mt-4 w-80 h-10"
+                        className="bg-neutral-800 border border-neutral-600 rounded-md p-2 mt-4 w-full h-10 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         type="email"
                         placeholder="Enter Your Email"
                         required
@@ -50,7 +50,7 @@ const Contact = () => {
                         onChange={handleChange}
                     />
                     <textarea
-                        className="border mt-4 w-80 px-2 py-1 text-left align-top resize-none"
+                        className="bg-neutral-800 border border-neutral-600 rounded-md p-2 mt-4 w-full align-top resize-none focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         rows="5"
                         placeholder="Enter Your Message"
                         required
@@ -62,7 +62,7 @@ const Contact = () => {
 
                     <button
                         type="submit"
-                        className="bg-neutral-700 hover:bg-neutral-600 rounded-2xl border mt-4 cursor-pointer w-80 h-10"
+                        className="bg-neutral-700 hover:bg-neutral-600 rounded-2xl border border-neutral-600 mt-4 cursor-pointer w-full h-10 transition-colors"
                     >
                         Send
                     </button>
