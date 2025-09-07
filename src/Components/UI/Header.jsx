@@ -11,8 +11,8 @@ const Header = () => {
     return (
         <>
             <header>
-                <section className="bg-neutral-800 text-white w-full">
-                    <div className="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
+                <section className="bg-neutral-800 text-white w-full ">
+                    <div className="container md:w-full mx-auto px-4 py-4 flex flex-col sm:flex-row justify-around items-center">
                         <div>
                             <NavLink to="/" onClick={closeMenu}>
                                 <h1 className="text-3xl font-bold" >WorldAtlas</h1>

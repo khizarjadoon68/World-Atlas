@@ -4,7 +4,7 @@ const HeroSection = () => {
     return (
         <>
             <main className="flex justify-center bg-black mt-16 py-8 md:py-12 lg:py-16">
-                <div className="main text-white w-[90%] md:w-[80%] lg:w-[70%] flex flex-col lg:flex-row items-center rounded-xl gap-8">
+                <div className="main md:ml-18 text-white w-[90%] md:w-[80%] lg:w-[70%] flex flex-col lg:flex-row items-center rounded-xl gap-8">
 
                     <div className="flex flex-col gap-5 w-full lg:w-[45%] p-4 rounded-md text-center lg:text-left">
                         <h1 className="text-3xl md:text-4xl font-bold mb-2">
