@@ -2,7 +2,7 @@ import countryFacts from "../API/CountryData.json";
 
 const About = () => {
     return (
-        <section className="text-white">
+        <section className="text-white ">
             <div className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8">
 
                 <div className="flex justify-center">

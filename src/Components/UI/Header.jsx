@@ -10,8 +10,8 @@ const Header = () => {
 
     return (
         <header>
-            <section className="bg-neutral-800 text-white w-full ">
-                <div className="container md:w-full mx-auto px-4 py-4 flex flex-col sm:flex-row justify-around items-center">
+            <section className="bg-neutral-800 text-white w-full">
+                <div className="container mx-auto px-4 py-4 flex justify-around items-center">
                     <div>
                         <NavLink to="/" onClick={closeMenu}>
                             <h1 className="text-3xl font-bold" >WorldAtlas</h1>
@@ -38,11 +38,11 @@ const Header = () => {
 
                 {/* Mobile Menu */}
                 <nav className={`sm:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
-                    <ul className="flex flex-col items-center gap-4 py-4">
-                        <li><NavLink to="/" onClick={closeMenu}>Home</NavLink></li>
-                        <li><NavLink to="about" onClick={closeMenu}>About</NavLink></li>
-                        <li><NavLink to="country" onClick={closeMenu}>Country</NavLink></li>
-                        <li><NavLink to="contact" onClick={closeMenu}>Contact</NavLink></li>
+                    <ul className="flex flex-col items-center bg-neutral-800">
+                        <li className="w-full text-center py-3 hover:bg-neutral-700 transition-colors"><NavLink to="/" onClick={closeMenu}>Home</NavLink></li>
+                        <li className="w-full text-center py-3 hover:bg-neutral-700 transition-colors"><NavLink to="about" onClick={closeMenu}>About</NavLink></li>
+                        <li className="w-full text-center py-3 hover:bg-neutral-700 transition-colors"><NavLink to="country" onClick={closeMenu}>Country</NavLink></li>
+                        <li className="w-full text-center py-3 hover:bg-neutral-700 transition-colors"><NavLink to="contact" onClick={closeMenu}>Contact</NavLink></li>
                     </ul>
                 </nav>
             </section>
